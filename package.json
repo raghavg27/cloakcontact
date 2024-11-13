@@ -1,0 +1,77 @@
+{
+  "name": "cloak-contact",
+  "version": "1.0.0",
+  "description": "This app is a contact management platform that allows users to generate unique QR codes for sharing contact information. When someone scans a QR code, they’re directed to a custom contact page where they can select a reason for contacting and submit a request. Users receive notifications (email, SMS) for new requests and can choose to initiate a real-time chat with the requester. The app includes a user dashboard for managing QR codes, viewing requests, and chatting, ensuring a secure, interactive way to connect with others.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavg27/cloakcontact.git"
+  },
+  "keywords": [
+    "QR",
+    "Code",
+    "Generation",
+    "Contact",
+    "Management",
+    "Real-Time",
+    "Chat",
+    "Notifications",
+    "User",
+    "Dashboard",
+    "Contact",
+    "Requests",
+    "Messaging",
+    "Platform",
+    "Client",
+    "Interaction",
+    "Digital",
+    "Business",
+    "Card",
+    "Web",
+    "App",
+    "Client",
+    "Communication",
+    "Twilio",
+    "Integration",
+    "SendGrid",
+    "Notifications",
+    "Real-Time",
+    "Communication",
+    "Socket.IO",
+    "Secure",
+    "Contact",
+    "Sharing",
+    "Contact",
+    "Request",
+    "Form",
+    "Scalable",
+    "App",
+    "Interactive",
+    "Platform",
+    "Customizable",
+    "QR",
+    "Codes"
+  ],
+  "author": "Raghav Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavg27/cloakcontact/issues"
+  },
+  "homepage": "https://github.com/raghavg27/cloakcontact#readme",
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
